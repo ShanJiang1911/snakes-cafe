@@ -50,7 +50,11 @@ def orders():
 
     pool = ["Wings", "Cookies", "Spring Rolls", "Salmon", "Steak", "Meat Tornado", "A Literal Garden", "Ice Cream", "Cake", "Pie", "Coffee", "Tea", "Unicorn Tears"]
 
+    counter=0
 
+    if response in pool:
+        counter+=1
+        print(counter)
 
 orders()
 
